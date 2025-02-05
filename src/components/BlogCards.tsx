@@ -6,8 +6,8 @@ import { urlForImage } from '@/sanity/lib/image'
 const BlogCards = ({ blog }: { blog: Blog }) => {
   return (
     <div >
-      <div className='flex flex-col w-[80%] justify-center  bg-gray-200 rounded-2xl mb-2'>
-        <Image src={urlForImage(blog.image)} alt="pic" width={400} height={100} />
+      <div className='flex flex-col w-[80%] justify-center  bg-gray-200 rounded-2xl mb-2 overflow-hidden'>
+        <Image src={urlForImage(blog.image)} alt="pic" width={400} height={100} className='mx-auto w-full mb-3' />
         <h1 className='font-bold md:text-2xl text-[16px]'>{blog.title}</h1>
         <p className='text-[18px]'>{blog.summary}</p>
         <Link href={`Dynamic/${blog.slug}`}>

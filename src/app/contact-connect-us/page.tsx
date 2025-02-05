@@ -8,8 +8,8 @@ import Link from 'next/link';
 const Connect = () => {
     return (
         <div>
-            <div className='flex justify-center mt-5 h-screen'>
-                <div className='md:w-[50%] w-full h-[400px] bg-gray-300 rounded-xl'>
+            <div className='flex justify-center mt-5 '>
+                <div className='md:w-[50%] w-full h-[400px] lg:mb-72 mb-[190px] bg-gray-300 rounded-xl'>
 
                     <h1 className='text-center underline text-[22px]'>Contact US</h1>
 

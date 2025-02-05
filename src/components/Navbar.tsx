@@ -11,8 +11,12 @@ const Navbar = () => {
         <ul className='flex justify-around w-[50%]  md:space-x-6 md:text-[20px] text-[10px] space-x-4'>
           <Link href="/"> <li>Home</li>
           </Link>
-          <Link href="/blog"> <li>Blogs</li></Link>
-          <Link href="/contact-connect-us"><li>Contact/ConnectUS</li></Link>
+          <Link href="/about"> <li>About</li>
+          </Link>
+          <Link href="/blog"> <li>Blogs</li>
+          </Link>
+          <Link href="/contact-connect-us"><li>Contact/ConnectUS</li>
+          </Link>
         </ul>
       </header>
 
